@@ -1,0 +1,12 @@
+package com.affordmed.vehiclescheduler.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data @NoArgsConstructor @AllArgsConstructor
+public class DepotsResponse {
+    private List<Depot> depots;
+}
