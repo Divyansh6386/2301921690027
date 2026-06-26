@@ -28,9 +28,8 @@ public class AuthService {
     private String accessCode;
 
     // Cached credentials after registration
-    private String clientID;
-    private String clientSecret;
-
+    private String clientID = "518afca5-768f-49fa-8e1d-2d6f395c1bc8";
+private String clientSecret = "GDteeAqfeJUuyUKz";
     // Cached token
     private String accessToken;
     private long tokenExpiresAt = 0;
